@@ -11,7 +11,7 @@ export default () => {
         <DashboardLayout>
           <FirstPage />
           <SecondPage />
-          {/* <ThridPage/> */}
+          <ThridPage />
         </DashboardLayout>
       </div>
     </>
