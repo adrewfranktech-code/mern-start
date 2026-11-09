@@ -1,0 +1,11 @@
+.total .res-none{
+    
+}
+
+
+
+@media (max-width:1400px) {
+    .total>div:not(:last-child){
+        display:none;
+    }
+}

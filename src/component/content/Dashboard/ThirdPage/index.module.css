@@ -1,0 +1,45 @@
+
+.total>div {
+    padding: 150px 150px 150px 0px;
+    box-sizing: border-box;
+}
+.right {
+    margin-right: -100px;
+}
+
+.right>div:nth-child(2) {
+    width: 600px;
+}
+
+
+
+
+
+@media (max-width:1400px) {
+    .total>div {
+        padding: 0px;
+        display: block;
+    }
+
+    .right>div:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .total>div>div {
+        margin: auto;
+    }
+
+    .right>div:nth-child(3) {
+        flex-direction: column;
+    }
+
+    .right>div:nth-child(3)>div {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .right>div:nth-child(2) {
+        width: 325px;
+    }
+}

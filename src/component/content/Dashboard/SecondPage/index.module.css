@@ -1,0 +1,48 @@
+.total>div {
+    padding: 150px 0px 150px 150px;
+    box-sizing: border-box;
+}
+
+.left {
+    margin-right: -100px;
+}
+
+.left>div:nth-child(2) {
+    width: 600px;
+}
+
+
+
+
+
+@media (max-width:1400px) {
+    .total>div {
+        padding: 0px;
+        display: block;
+    }
+
+    .left>div:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .total>div>div {
+        margin: auto;
+    }
+
+    .left>div:nth-child(3) {
+        flex-direction: column;
+    }
+
+    .left>div:nth-child(3)>div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .right>img {
+        width: 100%;
+    }
+
+    .left>div:nth-child(2) {
+        width: 325px;
+    }
+}

@@ -1,0 +1,21 @@
+.total{
+    height:96px;
+    transition:all 0.5s;
+}
+.preHeader{
+    display:none;
+}
+
+
+
+
+@media (max-width:450px){
+    .total{
+        height:72px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .preHeader{
+        display:flex;
+    }
+}

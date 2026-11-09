@@ -1,0 +1,140 @@
+.total {
+    height: 960px;
+    /* background-color:var(--main-background-color); */
+    background-image: url("/public/image/Dashboard/firstPage/BG Pattern.png");
+    /* background-size:100%; */
+    /* background-repeat: repeat-y; */
+    position: relative;
+}
+
+.total>div:last-child>img:first-child {
+    transition: all 0.5s;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+}
+
+.total>div:last-child>img:nth-child(2) {
+    transition: all 0.5s;
+    position: absolute;
+    top: 146px;
+    right: 62px;
+}
+
+.total>div:last-child>img:nth-child(3) {
+    transition: all 0.5s;
+    position: absolute;
+    top: 748px;
+    left: 187px;
+}
+
+.total>div:last-child>img:nth-child(4) {
+    transition: all 0.5s;
+    position: absolute;
+    top: 520px;
+    right: 110px;
+}
+
+.total>div:last-child>img:nth-child(5) {
+    transition: all 0.5s;
+    position: absolute;
+    top: 920px;
+    right: calc(50% - 10px);
+}
+
+.title {
+    transition: all 0.5s;
+}
+
+.title>div {
+    font-family: var(--main-font-M);
+    transition: all 0.5s;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.title>div:first-child {
+    z-index: 3;
+    font-size: 200px;
+}
+
+.title>div:first-child>img {
+    position: absolute;
+    top: 0px;
+    transition: all 0.5s;
+    z-index: 2;
+    left: calc(50% - 326px)
+}
+
+.title>div:last-child {
+    z-index: 1;
+    font-size: 300px;
+}
+
+.title>div:last-child>div {
+    position: absolute;
+    top: 100%;
+    padding: 32px;
+    font-size: 24px;
+    transition: all 0.5s;
+}
+
+
+
+
+
+@media (max-width : 450px) {
+    .total>div:last-child>img:first-child {
+        position: absolute;
+        top: 115px;
+        left: 0px;
+        width: 80px;
+    }
+
+    .total>div:last-child>img:nth-child(2) {
+        position: absolute;
+        top: 226px;
+        right: -37px;
+        width: 104px;
+    }
+
+    .total>div:last-child>img:nth-child(3) {
+        position: absolute;
+        top: 313px;
+        left: 82px;
+        width: 50px;
+    }
+}
+
+@media (max-width:1400px) {
+    .title {
+        transform: translateY(100px)
+    }
+
+    .title>div:first-child {
+        font-size: 90px;
+    }
+
+    .title>div:first-child>img {
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        top: 0px;
+        left: calc(50% - 120px);
+    }
+
+    .title>div:last-child {
+        font-size: 100px;
+    }
+
+    .title>div:last-child>div {
+        font-size: 16px;
+    }
+
+    .total>div:last-child>img:nth-child(5) {
+        position: absolute;
+        top: 640px;
+        right: calc(50% - 10px);
+    }
+}
